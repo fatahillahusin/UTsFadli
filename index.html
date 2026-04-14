@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fadli Toko Buku</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Readify</div>
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#discover">Kategori</a>
+    <a href="#trending">Populer</a>
+    <a href="#form">Pesan</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Baca Lebih Cerdas, Hidup Lebih Baik</h1>
+    <p>Koleksi buku pilihan untuk pengembangan diri dan karier</p>
+    <button class="btn">Mulai Membaca</button>
+  </div>
+</section>
+
+<!-- DISCOVER -->
+<section id="discover" class="discover">
+  <h2>Jelajahi Kategori</h2>
+  <div class="categories">
+    <div class="cat">Bisnis</div>
+    <div class="cat">Teknologi</div>
+    <div class="cat">Pengembangan Diri</div>
+    <div class="cat">Desain</div>
+  </div>
+</section>
+
+<section class="trending">
+  <h2>List Buku</h2>
+
+  <div id="product-list">
+    <section>
+  <h2>List Buku</h2>
+
+  <div style="display:flex; gap:30px; flex-wrap:wrap; align-items:flex-start;">
+
+    <div style="display:inline-block;">
+      <img src="asd.png" style="display:block; max-width:180px; height:auto; border-radius:8px;">
+      <h3 style="margin-top:8px;">Berani Tidak Disukai</h3>
+      <p style="color:gray;">Self Development</p>
+    </div>
+
+    <div style="display:inline-block;">
+      <img src="dsad.png" style="display:block; max-width:180px; height:auto; border-radius:8px;">
+      <h3 style="margin-top:8px;">Think and Grow Rich</h3>
+      <p style="color:gray;">Bisnis</p>
+    </div>
+
+    <div style="display:inline-block;">
+      <img src="meng.png" style="display:block; max-width:180px; height:auto; border-radius:8px;">
+      <h3 style="margin-top:8px;">Menggali Potensi Diri</h3>
+      <p style="color:gray;">Motivasi</p>
+    </div>
+
+  </div>
+</section>
+  </div>
+
+</section>
+
+
+<section id="form" class="form-section">
+  <h2>Pesan Buku</h2>
+  <form id="formPembelian">
+    <input type="text" id="nama" placeholder="Nama">
+    <small class="error"></small>
+
+    <input type="email" id="email" placeholder="Email">
+    <small class="error"></small>
+
+    <input type="number" id="jumlah" placeholder="Jumlah">
+    <small class="error"></small>
+
+    <button class="btn full">Checkout</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Readify</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
